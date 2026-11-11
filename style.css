@@ -8,3 +8,9 @@
 .player:fullscreen .exit-full{display:none}
 .player-controls,.hymn-nav{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0}
 .player-controls button,.hymn-nav button{min-height:56px;font-size:19px}
+.lyrics,.lyrics-empty,.lyrics-edit{margin:18px 0}
+.lyrics-empty{text-align:center}
+.lyrics-text{white-space:pre-line;font-family:'Noto Serif KR',serif;font-size:var(--size);line-height:var(--leading)}
+.lyrics-edit textarea{width:100%;box-sizing:border-box;font-size:20px;line-height:1.7;padding:12px;border-radius:10px;border:1px solid #c9b896;font-family:'Noto Serif KR',serif;margin:10px 0}
+.row.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.row.two button{min-height:52px;font-size:18px}
