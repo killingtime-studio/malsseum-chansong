@@ -14,3 +14,10 @@
 .lyrics-edit textarea{width:100%;box-sizing:border-box;font-size:20px;line-height:1.7;padding:12px;border-radius:10px;border:1px solid #c9b896;font-family:'Noto Serif KR',serif;margin:10px 0}
 .row.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .row.two button{min-height:52px;font-size:18px}
+/* 11/11 따뜻한 색감 (JSun 요청) */
+:root{--paper:#fbf4e6;--card:#fffaf0;--ink:#3b2f26;--muted:#7a6856;--line:#e8d7b9;--cover:#8a5a35;--gold:#f6d690}
+body.hymn{--cover:#a65a4b}
+header{border-bottom-color:#d9b36f;background-image:linear-gradient(180deg,#ffffff14,#00000000 60%),repeating-linear-gradient(100deg,transparent,transparent 3px,#ffffff05 4px)}
+.daily{border-top-color:#d4a24f;background:linear-gradient(180deg,#fff6e3,var(--card) 45%)}
+.actions svg{color:#b07a3a}
+nav button[aria-current=page]{background:#f6e7c9}
