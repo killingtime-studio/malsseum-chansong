@@ -21,3 +21,8 @@ header{border-bottom-color:#d9b36f;background-image:linear-gradient(180deg,#ffff
 .daily{border-top-color:#d4a24f;background:linear-gradient(180deg,#fff6e3,var(--card) 45%)}
 .actions svg{color:#b07a3a}
 nav button[aria-current=page]{background:#f6e7c9}
+.import-card button{width:100%;margin-top:10px}
+.import-card .big{min-height:64px;font-size:21px;font-weight:700}
+.primary{background:var(--cover);color:#fff8ea;border-color:transparent}
+.import-card textarea{width:100%;box-sizing:border-box;font-size:18px;padding:10px;border-radius:10px;border:1px solid var(--line)}
+.msg{font-size:19px;font-weight:600;color:var(--cover);margin-top:12px;line-height:1.6}
